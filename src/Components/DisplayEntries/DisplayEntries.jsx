@@ -1,11 +1,13 @@
 
 const DisplayEntries = (props) => {
     return ( 
-      <table>
+      <table className="table">
          <thead>
-          <th>Enter Number</th>
-          <th>Weight</th>
-          <th>Date</th>
+          <tr>
+            <th>Enter Number</th>
+            <th>Weight</th>
+            <th>Date</th>
+          </tr>
           </thead>
          <tbody>
         
